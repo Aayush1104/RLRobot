@@ -1,0 +1,24 @@
+[5.487s] Invoking command in '/home/user/ros2_ws/src/move_towards_object': PYTHONPATH=/home/user/build/move_towards_object/prefix_override:/home/user/install/move_towards_object/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/move_towards_object build --build-base /home/user/build/move_towards_object/build install --record /home/user/build/move_towards_object/install.log --single-version-externally-managed install_data
+[7.268s] running egg_info
+[7.281s] writing ../../../build/move_towards_object/move_towards_object.egg-info/PKG-INFO
+[7.281s] writing dependency_links to ../../../build/move_towards_object/move_towards_object.egg-info/dependency_links.txt
+[7.305s] writing entry points to ../../../build/move_towards_object/move_towards_object.egg-info/entry_points.txt
+[7.305s] writing requirements to ../../../build/move_towards_object/move_towards_object.egg-info/requires.txt
+[7.305s] writing top-level names to ../../../build/move_towards_object/move_towards_object.egg-info/top_level.txt
+[7.305s] reading manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+[7.328s] writing manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+[7.338s] running build
+[7.338s] running build_py
+[7.338s] copying move_towards_object/move_towards_object_node.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[7.339s] running install
+[7.340s] running install_lib
+[7.343s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/move_towards_object_node.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[7.343s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/move_towards_object_node.py to move_towards_object_node.cpython-310.pyc
+[7.399s] running install_data
+[7.399s] running install_egg_info
+[7.420s] removing '/home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object-0.0.0-py3.10.egg-info' (and everything under it)
+[7.439s] Copying ../../../build/move_towards_object/move_towards_object.egg-info to /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object-0.0.0-py3.10.egg-info
+[7.440s] running install_scripts
+[7.615s] Installing move_towards_object_node script to /home/user/install/move_towards_object/lib/move_towards_object
+[7.623s] writing list of installed files to '/home/user/build/move_towards_object/install.log'
+[7.844s] Invoked command in '/home/user/ros2_ws/src/move_towards_object' returned '0': PYTHONPATH=/home/user/build/move_towards_object/prefix_override:/home/user/install/move_towards_object/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/move_towards_object build --build-base /home/user/build/move_towards_object/build install --record /home/user/build/move_towards_object/install.log --single-version-externally-managed install_data

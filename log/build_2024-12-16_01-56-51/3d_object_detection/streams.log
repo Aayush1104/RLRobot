@@ -1,0 +1,21 @@
+[3.237s] Invoking command in '/home/user/ros2_ws/src/3d_object_detection': PYTHONPATH=/home/user/build/3d_object_detection/prefix_override:/home/user/install/3d_object_detection/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/3d_object_detection build --build-base /home/user/build/3d_object_detection/build install --record /home/user/build/3d_object_detection/install.log --single-version-externally-managed install_data
+[4.528s] running egg_info
+[4.536s] writing ../../../build/3d_object_detection/3d_object_detection.egg-info/PKG-INFO
+[4.537s] writing dependency_links to ../../../build/3d_object_detection/3d_object_detection.egg-info/dependency_links.txt
+[4.538s] writing entry points to ../../../build/3d_object_detection/3d_object_detection.egg-info/entry_points.txt
+[4.538s] writing requirements to ../../../build/3d_object_detection/3d_object_detection.egg-info/requires.txt
+[4.539s] writing top-level names to ../../../build/3d_object_detection/3d_object_detection.egg-info/top_level.txt
+[4.544s] reading manifest file '../../../build/3d_object_detection/3d_object_detection.egg-info/SOURCES.txt'
+[4.598s] writing manifest file '../../../build/3d_object_detection/3d_object_detection.egg-info/SOURCES.txt'
+[4.599s] running build
+[4.599s] running build_py
+[4.600s] running install
+[4.602s] running install_lib
+[4.629s] running install_data
+[4.629s] running install_egg_info
+[4.656s] removing '/home/user/install/3d_object_detection/lib/python3.10/site-packages/3d_object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[4.657s] Copying ../../../build/3d_object_detection/3d_object_detection.egg-info to /home/user/install/3d_object_detection/lib/python3.10/site-packages/3d_object_detection-0.0.0-py3.10.egg-info
+[4.660s] running install_scripts
+[4.879s] Installing 3d_object_detection_node script to /home/user/install/3d_object_detection/lib/3d_object_detection
+[4.880s] writing list of installed files to '/home/user/build/3d_object_detection/install.log'
+[4.924s] Invoked command in '/home/user/ros2_ws/src/3d_object_detection' returned '0': PYTHONPATH=/home/user/build/3d_object_detection/prefix_override:/home/user/install/3d_object_detection/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/3d_object_detection build --build-base /home/user/build/3d_object_detection/build install --record /home/user/build/3d_object_detection/install.log --single-version-externally-managed install_data

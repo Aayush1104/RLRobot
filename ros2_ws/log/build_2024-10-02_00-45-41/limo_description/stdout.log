@@ -1,0 +1,144 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/limo_description
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/gazebo_models_mod_basics.launch.py
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/limo_basic.launch.xml
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/display_models_diff.launch.py
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/sidescreentexture.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_optimal.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/face.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_wheel.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/lcd_screen_texture.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_wheel.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_base.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_base.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/mecanum_wheel_v2.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/rotw2_rviz.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_optimal.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/mecanum_wheel_v2.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_texture.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/rviz
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/rviz/model_display.rviz
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/rviz/urdf.rviz
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_example.xacro
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_xacro.xacro
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/l4rralde_gym.world
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/lab.world
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/turtlebot3_tc_office.world
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/husarion_world.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/turtlebot3_tc_office_grasp.world
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/empty.world
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config/diff_drive_controller.yaml
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config/mecanum_drive_controller.yaml
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config/diff_drive_controller2.yaml
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/meshes/tortoise_bot.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/meshes/tortoise_bot.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/limo_lab_no_box_stand.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/tc_logo.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/cargo_box.webp.001.webp
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/walls_text.jpeg.001.jpg
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/mission.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/lab_tc_limo.png.001.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/agile_x_logo.png
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/meshes/sphere.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/meshes/Scene_-_Root_diffuse.jpeg
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/meshes/mesh.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images/Material__2noCulling.JPG
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images/_03_-_Default1noCulling.JPG
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images/Material__1noCulling.JPG
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/meshes/tortoise_bot.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/meshes/tortoise_bot.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/meshes/mesh.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images/hair1noCulling.JPG
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images/hrad1noCulling.JPG
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images/Material__1noCulling.JPG
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elefant_body.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elefant_tusks.stl
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elephant_real.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elephant.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/model.sdf
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/meshes
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/meshes/sphere.dae
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/meshes/Scene_-_Root_diffuse.jpeg
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/model.config
+-- Installing: /home/user/ros2_ws/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description
+-- Installing: /home/user/ros2_ws/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/package.dsv
+-- Installing: /home/user/ros2_ws/install/limo_description/share/ament_index/resource_index/packages/limo_description
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/package.xml

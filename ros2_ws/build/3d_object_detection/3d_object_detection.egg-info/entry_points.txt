@@ -1,0 +1,3 @@
+[console_scripts]
+3d_object_detection_node = 3d_object_detection.3d_object_detection_node:main
+

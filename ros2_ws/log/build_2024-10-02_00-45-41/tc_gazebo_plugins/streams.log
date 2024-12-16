@@ -1,0 +1,170 @@
+[0.038s] Invoking command in '/home/user/ros2_ws/build/tc_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/limo_files/gazebo_plugins_ros_mod/tc_gazebo_plugins -DDOWNLOAD_YOLO_CONFIG=ON -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tc_gazebo_plugins
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.226s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.369s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.383s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.529s] -- Detecting CXX compiler ABI info - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.563s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.876s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.205s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.232s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.241s] -- Checking for module 'bullet>=2.82'
+[1.289s] --   Found bullet, version 3.05
+[1.574s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.675s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.768s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.113s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.140s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.168s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.184s] -- Searching for dependencies of ignition-math6
+[2.186s] -- Looking for OGRE...
+[2.186s] -- OGRE_PREFIX_WATCH changed.
+[2.192s] -- Checking for module 'OGRE'
+[2.218s] --   Found OGRE, version 1.9.0
+[2.262s] -- Found Ogre Ghadamon (1.9.0)
+[2.283s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.292s] -- Looking for OGRE_Paging...
+[2.307s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.307s] -- Looking for OGRE_Terrain...
+[2.319s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.319s] -- Looking for OGRE_Property...
+[2.330s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.330s] -- Looking for OGRE_RTShaderSystem...
+[2.349s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.349s] -- Looking for OGRE_Volume...
+[2.365s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.365s] -- Looking for OGRE_Overlay...
+[2.386s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.889s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.906s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.907s] -- Searching for dependencies of ignition-transport8
+[2.951s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.992s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.998s] -- Checking for module 'libzmq >= 4'
+[3.018s] --   Found libzmq , version 4.3.4
+[3.088s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.101s] -- Checking for module 'uuid'
+[3.140s] --   Found uuid, version 2.37.2
+[3.200s] -- Found UUID: TRUE  
+[3.217s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.218s] -- Searching for dependencies of ignition-msgs5
+[3.259s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.267s] -- Checking for module 'tinyxml2'
+[3.288s] --   Found tinyxml2, version 9.0.0
+[3.352s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.366s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.366s] -- Searching for dependencies of ignition-common3
+[3.367s] -- Looking for dlfcn.h - found
+[3.370s] -- Looking for libdl - found
+[3.372s] -- Found DL: TRUE  
+[3.406s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.407s] -- Searching for <ignition-common3> component [graphics]
+[3.423s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.424s] -- Searching for dependencies of ignition-common3-graphics
+[3.425s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.440s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.442s] -- Searching for dependencies of ignition-fuel_tools4
+[3.615s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.643s] -- Checking for module 'jsoncpp'
+[3.674s] --   Found jsoncpp, version 1.9.5
+[3.738s] -- Found JSONCPP: TRUE  
+[3.752s] -- Checking for module 'libzip'
+[3.775s] --   Found libzip, version 1.7.3
+[3.825s] -- Found ZIP: TRUE  
+[3.825s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.825s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.826s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.841s] -- Gazebo version: 11.10
+[3.842s] -- Checking for module 'tbb'
+[3.874s] --   Found tbb, version 2021.5.0
+[3.942s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[4.095s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.127s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.160s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.532s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.554s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.839s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.112s] -- Found Threads: TRUE  
+[5.535s] -- Found geometry_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[5.629s] -- Found nav_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/nav_msgs/share/nav_msgs/cmake)
+[5.979s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[6.043s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.106s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.109s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.109s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.231s] -- Configuring done
+[7.300s] -- Generating done
+[7.302s] [33mCMake Warning:
+[7.303s]   Manually-specified variables were not used by the project:
+[7.303s] 
+[7.303s]     DOWNLOAD_YOLO_CONFIG
+[7.303s] 
+[7.303s] [0m
+[7.305s] -- Build files have been written to: /home/user/ros2_ws/build/tc_gazebo_plugins
+[7.342s] Invoked command in '/home/user/ros2_ws/build/tc_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/limo_files/gazebo_plugins_ros_mod/tc_gazebo_plugins -DDOWNLOAD_YOLO_CONFIG=ON -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tc_gazebo_plugins
+[7.343s] Invoking command in '/home/user/ros2_ws/build/tc_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tc_gazebo_plugins -- -j8 -l8
+[7.483s] [ 50%] [32mBuilding CXX object CMakeFiles/tc_gazebo_ros_ackermann_drive.dir/src/gazebo_ros_ackermann_drive.cpp.o[0m
+[37.774s] [100%] [32m[1mLinking CXX shared library libtc_gazebo_ros_ackermann_drive.so[0m
+[39.574s] [100%] Built target tc_gazebo_ros_ackermann_drive
+[39.646s] Invoked command in '/home/user/ros2_ws/build/tc_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tc_gazebo_plugins -- -j8 -l8
+[40.075s] Invoking command in '/home/user/ros2_ws/build/tc_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tc_gazebo_plugins
+[40.102s] -- Install configuration: ""
+[40.103s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/environment/library_path.sh
+[40.103s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/environment/library_path.dsv
+[40.103s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/tc_gazebo_plugins
+[40.104s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/tc_gazebo_plugins
+[40.104s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/environment/ament_prefix_path.sh
+[40.104s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/environment/ament_prefix_path.dsv
+[40.104s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/environment/path.sh
+[40.105s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/environment/path.dsv
+[40.105s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/local_setup.bash
+[40.105s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/local_setup.sh
+[40.105s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/local_setup.zsh
+[40.106s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/local_setup.dsv
+[40.106s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/package.dsv
+[40.106s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/ament_index/resource_index/packages/tc_gazebo_plugins
+[40.111s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[40.111s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.111s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.111s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/cmake/tc_gazebo_pluginsConfig.cmake
+[40.111s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/cmake/tc_gazebo_pluginsConfig-version.cmake
+[40.112s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/share/tc_gazebo_plugins/package.xml
+[40.112s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include
+[40.112s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins
+[40.112s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_tricycle_drive.hpp
+[40.112s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_force.hpp
+[40.112s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_elevator.hpp
+[40.113s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_diff_drive.hpp
+[40.113s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_vacuum_gripper.hpp
+[40.113s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_ray_sensor.hpp
+[40.113s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_wheel_slip.hpp
+[40.113s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_template.hpp
+[40.114s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_gps_sensor.hpp
+[40.114s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_ft_sensor.hpp
+[40.114s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_camera.hpp
+[40.114s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_joint_state_publisher.hpp
+[40.115s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_bumper.hpp
+[40.115s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_p3d.hpp
+[40.115s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_projector.hpp
+[40.115s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_imu_sensor.hpp
+[40.115s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/multi_camera_plugin.hpp
+[40.115s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_planar_move.hpp
+[40.115s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_ackermann_drive.hpp
+[40.116s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_video.hpp
+[40.116s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_joint_pose_trajectory.hpp
+[40.116s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_hand_of_god.hpp
+[40.116s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/include/tc_gazebo_plugins/gazebo_ros_harness.hpp
+[40.116s] -- Installing: /home/user/ros2_ws/install/tc_gazebo_plugins/lib/libtc_gazebo_ros_ackermann_drive.so
+[40.160s] -- Set runtime path of "/home/user/ros2_ws/install/tc_gazebo_plugins/lib/libtc_gazebo_ros_ackermann_drive.so" to ""
+[40.171s] Invoked command in '/home/user/ros2_ws/build/tc_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tc_gazebo_plugins

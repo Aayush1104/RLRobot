@@ -1,0 +1,43 @@
+[6.162s] Invoking command in '/home/user/ros2_ws/src/move_towards_object': PYTHONPATH=/home/user/build/move_towards_object/prefix_override:/home/user/install/move_towards_object/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/move_towards_object build --build-base /home/user/build/move_towards_object/build install --record /home/user/build/move_towards_object/install.log --single-version-externally-managed install_data
+[8.613s] running egg_info
+[8.616s] creating ../../../build/move_towards_object/move_towards_object.egg-info
+[8.617s] writing ../../../build/move_towards_object/move_towards_object.egg-info/PKG-INFO
+[8.619s] writing dependency_links to ../../../build/move_towards_object/move_towards_object.egg-info/dependency_links.txt
+[8.622s] writing entry points to ../../../build/move_towards_object/move_towards_object.egg-info/entry_points.txt
+[8.622s] writing requirements to ../../../build/move_towards_object/move_towards_object.egg-info/requires.txt
+[8.622s] writing top-level names to ../../../build/move_towards_object/move_towards_object.egg-info/top_level.txt
+[8.623s] writing manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+[8.632s] reading manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+[8.636s] writing manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+[8.638s] running build
+[8.641s] running build_py
+[8.641s] creating /home/user/build/move_towards_object/build
+[8.642s] creating /home/user/build/move_towards_object/build/lib
+[8.642s] creating /home/user/build/move_towards_object/build/lib/move_towards_object
+[8.642s] copying move_towards_object/__init__.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[8.648s] copying move_towards_object/q_learning_agent.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[8.712s] copying move_towards_object/robot_environment.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[8.714s] copying move_towards_object/move_towards_object_node.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[8.717s] running install
+[8.728s] running install_lib
+[8.728s] creating /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[8.730s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/__init__.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[8.730s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/q_learning_agent.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[8.731s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/robot_environment.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[8.731s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/move_towards_object_node.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[8.748s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/__init__.py to __init__.cpython-310.pyc
+[8.749s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/q_learning_agent.py to q_learning_agent.cpython-310.pyc
+[8.749s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/robot_environment.py to robot_environment.cpython-310.pyc
+[8.749s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/move_towards_object_node.py to move_towards_object_node.cpython-310.pyc
+[8.749s] running install_data
+[8.749s] creating /home/user/install/move_towards_object/share/ament_index
+[8.749s] creating /home/user/install/move_towards_object/share/ament_index/resource_index
+[8.749s] creating /home/user/install/move_towards_object/share/ament_index/resource_index/packages
+[8.750s] copying resource/move_towards_object -> /home/user/install/move_towards_object/share/ament_index/resource_index/packages
+[8.750s] copying package.xml -> /home/user/install/move_towards_object/share/move_towards_object
+[8.750s] running install_egg_info
+[8.777s] Copying ../../../build/move_towards_object/move_towards_object.egg-info to /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object-0.0.0-py3.10.egg-info
+[8.777s] running install_scripts
+[8.936s] Installing move_towards_object_node script to /home/user/install/move_towards_object/lib/move_towards_object
+[8.938s] writing list of installed files to '/home/user/build/move_towards_object/install.log'
+[9.016s] Invoked command in '/home/user/ros2_ws/src/move_towards_object' returned '0': PYTHONPATH=/home/user/build/move_towards_object/prefix_override:/home/user/install/move_towards_object/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/move_towards_object build --build-base /home/user/build/move_towards_object/build install --record /home/user/build/move_towards_object/install.log --single-version-externally-managed install_data

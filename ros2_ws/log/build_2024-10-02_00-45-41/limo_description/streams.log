@@ -1,0 +1,156 @@
+[0.034s] Invoking command in '/home/user/ros2_ws/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/limo_files/limo_ros2/limo_description -DDOWNLOAD_YOLO_CONFIG=ON -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/limo_description
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.240s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.375s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.376s] -- Detecting C compile features - done
+[0.379s] -- Detecting CXX compiler ABI info
+[0.536s] -- Detecting CXX compiler ABI info - done
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.558s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.869s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.213s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.468s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.492s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.497s] -- Added test 'lint_cmake' to check CMake code style
+[1.501s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.513s] -- Added test 'xmllint' to check XML markup files
+[1.515s] -- Configuring done
+[1.520s] -- Generating done
+[1.521s] [33mCMake Warning:
+[1.521s]   Manually-specified variables were not used by the project:
+[1.521s] 
+[1.521s]     DOWNLOAD_YOLO_CONFIG
+[1.521s] 
+[1.521s] [0m
+[1.521s] -- Build files have been written to: /home/user/ros2_ws/build/limo_description
+[1.527s] Invoked command in '/home/user/ros2_ws/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/limo_files/limo_ros2/limo_description -DDOWNLOAD_YOLO_CONFIG=ON -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/limo_description
+[1.529s] Invoking command in '/home/user/ros2_ws/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/limo_description -- -j8 -l8
+[1.603s] Invoked command in '/home/user/ros2_ws/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/limo_description -- -j8 -l8
+[1.667s] Invoking command in '/home/user/ros2_ws/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/limo_description
+[1.679s] -- Install configuration: ""
+[1.679s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch
+[1.679s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/gazebo_models_mod_basics.launch.py
+[1.679s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py
+[1.679s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/limo_basic.launch.xml
+[1.679s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/launch/display_models_diff.launch.py
+[1.680s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes
+[1.680s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/sidescreentexture.png
+[1.680s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_optimal.dae
+[1.692s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/face.png
+[1.693s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_wheel.dae
+[1.713s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/lcd_screen_texture.png
+[1.713s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_wheel.stl
+[1.727s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_base.stl
+[1.798s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_base.dae
+[1.889s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/mecanum_wheel_v2.dae
+[1.890s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/rotw2_rviz.png
+[1.893s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_optimal.stl
+[1.896s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/mecanum_wheel_v2.stl
+[1.897s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/meshes/limo_texture.png
+[1.897s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/rviz
+[1.897s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/rviz/model_display.rviz
+[1.898s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/rviz/urdf.rviz
+[1.898s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf
+[1.898s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo
+[1.898s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_example.xacro
+[1.898s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro
+[1.898s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo
+[1.899s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo
+[1.899s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro
+[1.899s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro
+[1.899s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_xacro.xacro
+[1.899s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo
+[1.899s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds
+[1.899s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/l4rralde_gym.world
+[1.900s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/lab.world
+[1.951s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/turtlebot3_tc_office.world
+[1.951s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/husarion_world.sdf
+[1.951s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/turtlebot3_tc_office_grasp.world
+[1.951s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/worlds/empty.world
+[1.951s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config/diff_drive_controller.yaml
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config/mecanum_drive_controller.yaml
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/config/diff_drive_controller2.yaml
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/model.sdf
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/meshes
+[1.952s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/meshes/tortoise_bot.stl
+[1.957s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/meshes/tortoise_bot.dae
+[1.962s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot2/model.config
+[1.962s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab
+[1.962s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/model.sdf
+[1.962s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes
+[1.962s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/limo_lab_no_box_stand.dae
+[1.962s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/tc_logo.png
+[1.963s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/cargo_box.webp.001.webp
+[1.963s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/walls_text.jpeg.001.jpg
+[1.964s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/mission.png
+[1.964s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/lab_tc_limo.png.001.png
+[1.965s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/meshes/agile_x_logo.png
+[1.965s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/limo_lab/model.config
+[1.966s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way
+[1.966s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/model.sdf
+[1.966s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/meshes
+[1.966s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/meshes/sphere.dae
+[1.967s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/meshes/Scene_-_Root_diffuse.jpeg
+[2.007s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_milky_way/model.config
+[2.007s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03
+[2.007s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/model.sdf
+[2.008s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/meshes
+[2.008s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/meshes/mesh.dae
+[2.013s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/model.config
+[2.014s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images
+[2.014s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images/Material__2noCulling.JPG
+[2.015s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images/_03_-_Default1noCulling.JPG
+[2.016s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_female_03/images/Material__1noCulling.JPG
+[2.017s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot
+[2.017s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/model.sdf
+[2.017s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/meshes
+[2.017s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/meshes/tortoise_bot.stl
+[2.021s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/meshes/tortoise_bot.dae
+[2.025s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/tortoise_bot/model.config
+[2.025s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03
+[2.026s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/model.sdf
+[2.026s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/meshes
+[2.026s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/meshes/mesh.dae
+[2.031s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/model.config
+[2.031s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images
+[2.031s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images/hair1noCulling.JPG
+[2.033s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images/hrad1noCulling.JPG
+[2.034s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/citizen_extras_male_03/images/Material__1noCulling.JPG
+[2.036s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant
+[2.036s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/model.sdf
+[2.036s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes
+[2.036s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elefant_body.stl
+[2.038s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elefant_tusks.stl
+[2.039s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elephant_real.dae
+[2.066s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/meshes/elephant.dae
+[2.069s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/elephant/model.config
+[2.069s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship
+[2.069s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/model.sdf
+[2.069s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/meshes
+[2.069s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/meshes/sphere.dae
+[2.071s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/meshes/Scene_-_Root_diffuse.jpeg
+[2.085s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/models/bg_spaceship/model.config
+[2.085s] -- Installing: /home/user/ros2_ws/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description
+[2.085s] -- Installing: /home/user/ros2_ws/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description
+[2.086s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/ament_prefix_path.sh
+[2.086s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv
+[2.086s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/path.sh
+[2.086s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/environment/path.dsv
+[2.086s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.bash
+[2.087s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.sh
+[2.087s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.zsh
+[2.087s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/local_setup.dsv
+[2.087s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/package.dsv
+[2.088s] -- Installing: /home/user/ros2_ws/install/limo_description/share/ament_index/resource_index/packages/limo_description
+[2.088s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake
+[2.088s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake
+[2.088s] -- Installing: /home/user/ros2_ws/install/limo_description/share/limo_description/package.xml
+[2.091s] Invoked command in '/home/user/ros2_ws/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/limo_description

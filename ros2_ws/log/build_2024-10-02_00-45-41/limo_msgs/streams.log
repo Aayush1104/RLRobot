@@ -1,0 +1,259 @@
+[0.044s] Invoking command in '/home/user/ros2_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/limo_files/limo_ros2/limo_msgs -DDOWNLOAD_YOLO_CONFIG=ON -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/limo_msgs
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.401s] -- Detecting CXX compiler ABI info
+[0.556s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.572s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.903s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.239s] -- Found std_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/std_msgs/share/std_msgs/cmake)
+[1.400s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.425s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.455s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.702s] -- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[2.199s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.195s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.564s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.625s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.800s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.813s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.865s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.865s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.865s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.865s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.906s] -- Found PythonExtra: .so  
+[4.006s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.107s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.109s] -- Added test 'lint_cmake' to check CMake code style
+[4.111s] -- Added test 'xmllint' to check XML markup files
+[4.116s] -- Configuring done
+[4.155s] -- Generating done
+[4.157s] [33mCMake Warning:
+[4.157s]   Manually-specified variables were not used by the project:
+[4.158s] 
+[4.158s]     DOWNLOAD_YOLO_CONFIG
+[4.158s] 
+[4.158s] [0m
+[4.158s] -- Build files have been written to: /home/user/ros2_ws/build/limo_msgs
+[4.173s] Invoked command in '/home/user/ros2_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/limo_files/limo_ros2/limo_msgs -DDOWNLOAD_YOLO_CONFIG=ON -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/limo_msgs
+[4.175s] Invoking command in '/home/user/ros2_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/limo_msgs -- -j8 -l8
+[4.256s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.279s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.280s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.294s] [  9%] Built target ament_cmake_python_copy_limo_msgs
+[4.654s] running egg_info
+[4.655s] creating limo_msgs.egg-info
+[4.655s] writing limo_msgs.egg-info/PKG-INFO
+[4.655s] writing dependency_links to limo_msgs.egg-info/dependency_links.txt
+[4.655s] writing top-level names to limo_msgs.egg-info/top_level.txt
+[4.656s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[4.657s] reading manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[4.658s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[4.714s] [  9%] Built target ament_cmake_python_build_limo_msgs_egg
+[4.750s] [  9%] Built target limo_msgs__cpp
+[4.756s] [  9%] Built target limo_msgs__rs
+[4.771s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.774s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.774s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.785s] [ 21%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__functions.c.o[0m
+[4.874s] [ 25%] [32m[1mLinking C shared library liblimo_msgs__rosidl_generator_c.so[0m
+[4.943s] [ 25%] Built target limo_msgs__rosidl_generator_c
+[4.966s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.969s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.985s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.150s] [ 37%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[5.323s] [ 40%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/msg/detail/dds_fastrtps/limo_status__type_support.cpp.o[0m
+[5.428s] [ 43%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/msg/detail/limo_status__type_support.cpp.o[0m
+[5.546s] [ 46%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/msg/detail/limo_status__type_support_c.cpp.o[0m
+[5.700s] [ 50%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[5.736s] [ 53%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/msg/detail/limo_status__type_support.c.o[0m
+[5.889s] [ 56%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_c.so[0m
+[5.920s] [ 59%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_cpp.so[0m
+[5.969s] [ 62%] [32m[1mLinking C shared library liblimo_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.168s] [ 62%] Built target limo_msgs__rosidl_typesupport_c
+[6.203s] [ 62%] Built target limo_msgs__rosidl_typesupport_introspection_c
+[6.227s] [ 62%] Built target limo_msgs__rosidl_typesupport_cpp
+[6.431s] [ 65%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.493s] [ 68%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.686s] [ 71%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.697s] [ 71%] Built target limo_msgs__rosidl_typesupport_introspection_cpp
+[6.878s] [ 71%] Built target limo_msgs__rosidl_typesupport_fastrtps_c
+[6.940s] [ 71%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp
+[7.002s] [ 71%] Built target limo_msgs
+[7.065s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.616s] [ 75%] Built target limo_msgs__py
+[7.659s] [ 78%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c.o[0m
+[7.794s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/liblimo_msgs__rosidl_generator_py.so[0m
+[7.888s] [ 81%] Built target limo_msgs__rosidl_generator_py
+[7.953s] [ 84%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.956s] [ 87%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.960s] [ 90%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.145s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.165s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.176s] [100%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.290s] [100%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext
+[8.328s] [100%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.348s] [100%] Built target limo_msgs__rosidl_typesupport_c__pyext
+[8.402s] Invoked command in '/home/user/ros2_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/limo_msgs -- -j8 -l8
+[9.072s] Invoking command in '/home/user/ros2_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/limo_msgs
+[9.088s] -- Install configuration: ""
+[9.088s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs
+[9.089s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[9.089s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[9.089s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[9.089s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.c
+[9.089s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.h
+[9.090s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.h
+[9.090s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.h
+[9.090s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.090s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.h
+[9.091s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/library_path.sh
+[9.091s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/library_path.dsv
+[9.092s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so
+[9.092s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so" to ""
+[9.092s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[9.092s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[9.093s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[9.093s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h
+[9.093s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.093s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so
+[9.094s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.094s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[9.094s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[9.094s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[9.094s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.hpp
+[9.094s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__builder.hpp
+[9.094s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__traits.hpp
+[9.095s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.hpp
+[9.095s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[9.095s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[9.095s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[9.095s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/dds_fastrtps
+[9.095s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.096s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.096s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.096s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.097s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[9.097s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[9.097s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[9.097s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.c
+[9.097s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h
+[9.097s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.098s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so
+[9.098s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.098s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so
+[9.099s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so" to ""
+[9.099s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[9.099s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[9.099s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[9.099s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp
+[9.099s] -- Installing: /home/user/ros2_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.cpp
+[9.100s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so
+[9.100s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.100s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so
+[9.101s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so" to ""
+[9.101s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/ament_index/resource_index/rust_packages/limo_msgs
+[9.101s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust
+[9.102s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/Cargo.toml
+[9.102s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src
+[9.102s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src/msg.rs
+[9.102s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src/lib.rs
+[9.103s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/build.rs
+[9.103s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust
+[9.103s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/Cargo.toml
+[9.103s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src
+[9.103s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src/msg.rs
+[9.103s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src/lib.rs
+[9.104s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/build.rs
+[9.104s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust
+[9.104s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/Cargo.toml
+[9.104s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src
+[9.104s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src/msg.rs
+[9.104s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/src/lib.rs
+[9.104s] -- Up-to-date: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/rust/build.rs
+[9.104s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh
+[9.104s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv
+[9.105s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info
+[9.105s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.105s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.105s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.105s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.105s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs
+[9.106s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.106s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.106s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c
+[9.106s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.107s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg
+[9.107s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py
+[9.107s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status_s.c
+[9.108s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py
+[9.108s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.108s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py
+[9.109s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.109s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/liblimo_msgs__rosidl_generator_py.so
+[9.218s] Listing '/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs'...
+[9.218s] Compiling '/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py'...
+[9.218s] Listing '/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg'...
+[9.218s] Compiling '/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py'...
+[9.218s] Compiling '/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py'...
+[9.241s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.241s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.242s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.242s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.243s] -- Installing: /home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.243s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.243s] -- Installing: /home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so
+[9.244s] -- Set runtime path of "/home/user/ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so" to ""
+[9.244s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl
+[9.245s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg
+[9.245s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs
+[9.245s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs
+[9.246s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh
+[9.246s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv
+[9.246s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/path.sh
+[9.246s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/environment/path.dsv
+[9.247s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.bash
+[9.247s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.sh
+[9.247s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.zsh
+[9.248s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.dsv
+[9.248s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/package.dsv
+[9.248s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs
+[9.249s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport.cmake
+[9.249s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.249s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.249s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.250s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cppExport.cmake
+[9.250s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.250s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.251s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.251s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.251s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake
+[9.252s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.252s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.253s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.253s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake
+[9.253s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.254s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport.cmake
+[9.254s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.255s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake
+[9.255s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.256s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.256s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.257s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.257s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.257s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.258s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake
+[9.258s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake
+[9.258s] -- Installing: /home/user/ros2_ws/install/limo_msgs/share/limo_msgs/package.xml
+[9.272s] Invoked command in '/home/user/ros2_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/limo_msgs

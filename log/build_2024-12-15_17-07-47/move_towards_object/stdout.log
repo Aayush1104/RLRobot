@@ -1,0 +1,25 @@
+running egg_info
+writing ../../../build/move_towards_object/move_towards_object.egg-info/PKG-INFO
+writing dependency_links to ../../../build/move_towards_object/move_towards_object.egg-info/dependency_links.txt
+writing entry points to ../../../build/move_towards_object/move_towards_object.egg-info/entry_points.txt
+writing requirements to ../../../build/move_towards_object/move_towards_object.egg-info/requires.txt
+writing top-level names to ../../../build/move_towards_object/move_towards_object.egg-info/top_level.txt
+reading manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+writing manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+running build
+running build_py
+copying move_towards_object/robot_environment.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+copying move_towards_object/move_towards_object_node.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+running install
+running install_lib
+copying /home/user/build/move_towards_object/build/lib/move_towards_object/robot_environment.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+copying /home/user/build/move_towards_object/build/lib/move_towards_object/move_towards_object_node.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/robot_environment.py to robot_environment.cpython-310.pyc
+byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/move_towards_object_node.py to move_towards_object_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/move_towards_object/move_towards_object.egg-info to /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move_towards_object_node script to /home/user/install/move_towards_object/lib/move_towards_object
+writing list of installed files to '/home/user/build/move_towards_object/install.log'

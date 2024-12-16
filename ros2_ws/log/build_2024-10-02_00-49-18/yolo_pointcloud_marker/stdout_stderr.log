@@ -1,0 +1,22 @@
+running egg_info
+writing ../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info/PKG-INFO
+writing dependency_links to ../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info/dependency_links.txt
+writing entry points to ../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info/entry_points.txt
+writing requirements to ../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info/requires.txt
+writing top-level names to ../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info/top_level.txt
+reading manifest file '../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info/SOURCES.txt'
+writing manifest file '../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yolo_pointcloud_marker/yolo_pointcloud_marker_node.py -> /home/user/ros2_ws/build/yolo_pointcloud_marker/build/lib/yolo_pointcloud_marker
+running install
+running install_lib
+copying /home/user/ros2_ws/build/yolo_pointcloud_marker/build/lib/yolo_pointcloud_marker/yolo_pointcloud_marker_node.py -> /home/user/ros2_ws/install/yolo_pointcloud_marker/lib/python3.10/site-packages/yolo_pointcloud_marker
+byte-compiling /home/user/ros2_ws/install/yolo_pointcloud_marker/lib/python3.10/site-packages/yolo_pointcloud_marker/yolo_pointcloud_marker_node.py to yolo_pointcloud_marker_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/user/ros2_ws/install/yolo_pointcloud_marker/lib/python3.10/site-packages/yolo_pointcloud_marker-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/yolo_pointcloud_marker/yolo_pointcloud_marker.egg-info to /home/user/ros2_ws/install/yolo_pointcloud_marker/lib/python3.10/site-packages/yolo_pointcloud_marker-0.0.1-py3.10.egg-info
+running install_scripts
+Installing yolo_pointcloud_marker_node script to /home/user/ros2_ws/install/yolo_pointcloud_marker/lib/yolo_pointcloud_marker
+writing list of installed files to '/home/user/ros2_ws/build/yolo_pointcloud_marker/install.log'

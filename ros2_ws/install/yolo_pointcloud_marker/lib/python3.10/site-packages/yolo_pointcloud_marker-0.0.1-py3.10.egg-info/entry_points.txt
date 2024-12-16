@@ -1,0 +1,3 @@
+[console_scripts]
+yolo_pointcloud_marker_node = yolo_pointcloud_marker.yolo_pointcloud_marker_node:main
+

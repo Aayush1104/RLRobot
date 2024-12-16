@@ -1,0 +1,3 @@
+[console_scripts]
+move_towards_object_node = move_towards_object.move_towards_object_node:main
+

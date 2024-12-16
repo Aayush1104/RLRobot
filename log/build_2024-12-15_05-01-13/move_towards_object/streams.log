@@ -1,0 +1,30 @@
+[2.572s] Invoking command in '/home/user/ros2_ws/src/move_towards_object': PYTHONPATH=/home/user/build/move_towards_object/prefix_override:/home/user/install/move_towards_object/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/move_towards_object build --build-base /home/user/build/move_towards_object/build install --record /home/user/build/move_towards_object/install.log --single-version-externally-managed install_data
+[3.809s] running egg_info
+[3.862s] writing ../../../build/move_towards_object/move_towards_object.egg-info/PKG-INFO
+[3.862s] writing dependency_links to ../../../build/move_towards_object/move_towards_object.egg-info/dependency_links.txt
+[3.862s] writing entry points to ../../../build/move_towards_object/move_towards_object.egg-info/entry_points.txt
+[3.862s] writing requirements to ../../../build/move_towards_object/move_towards_object.egg-info/requires.txt
+[3.862s] writing top-level names to ../../../build/move_towards_object/move_towards_object.egg-info/top_level.txt
+[3.862s] reading manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+[3.863s] writing manifest file '../../../build/move_towards_object/move_towards_object.egg-info/SOURCES.txt'
+[3.869s] running build
+[3.870s] running build_py
+[3.870s] copying move_towards_object/q_learning_agent.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[3.873s] copying move_towards_object/robot_environment.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[3.874s] copying move_towards_object/move_towards_object_node.py -> /home/user/build/move_towards_object/build/lib/move_towards_object
+[3.874s] running install
+[3.875s] running install_lib
+[3.882s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/q_learning_agent.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[3.882s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/robot_environment.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[3.883s] copying /home/user/build/move_towards_object/build/lib/move_towards_object/move_towards_object_node.py -> /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object
+[3.884s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/q_learning_agent.py to q_learning_agent.cpython-310.pyc
+[3.892s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/robot_environment.py to robot_environment.cpython-310.pyc
+[3.893s] byte-compiling /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object/move_towards_object_node.py to move_towards_object_node.cpython-310.pyc
+[3.894s] running install_data
+[3.895s] running install_egg_info
+[3.902s] removing '/home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object-0.0.0-py3.10.egg-info' (and everything under it)
+[3.902s] Copying ../../../build/move_towards_object/move_towards_object.egg-info to /home/user/install/move_towards_object/lib/python3.10/site-packages/move_towards_object-0.0.0-py3.10.egg-info
+[3.905s] running install_scripts
+[3.985s] Installing move_towards_object_node script to /home/user/install/move_towards_object/lib/move_towards_object
+[3.986s] writing list of installed files to '/home/user/build/move_towards_object/install.log'
+[4.067s] Invoked command in '/home/user/ros2_ws/src/move_towards_object' returned '0': PYTHONPATH=/home/user/build/move_towards_object/prefix_override:/home/user/install/move_towards_object/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/move_towards_object build --build-base /home/user/build/move_towards_object/build install --record /home/user/build/move_towards_object/install.log --single-version-externally-managed install_data
